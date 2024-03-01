@@ -475,6 +475,45 @@ article .icon {
   height: 2.5rem;
 }
 
+
+
+.contact-form form {
+  position: relative;
+}
+
+.contact-form form input,
+form textarea {
+  width: 100%;
+  padding: 14px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  border: none;
+  outline: none;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 75px;
+}
+
+.contact-form .submit {
+  display: inline-block;
+  font-size: 16px;
+  background: rgba(0, 0, 255, 0.726);
+  color: black;
+  width: 160px;
+  transition: all .45s ease;
+}
+
+.contact-form .submit:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
 /* FOOTER SECTION */
 
 footer {
